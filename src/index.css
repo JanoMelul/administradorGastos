@@ -341,6 +341,7 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
+    height: auto;
 }
 .modal .cerrar-modal {
     position: absolute;
@@ -355,7 +356,7 @@ main {
 
 .modal .formulario {
     max-width: 80rem;
-    width: 40rem;
+    width: 70%;
     transition-property: all;
     transition-duration: 300ms;
     transition-timing-function: ease-in;
